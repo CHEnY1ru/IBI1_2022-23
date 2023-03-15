@@ -1,4 +1,4 @@
-#first set two variants, one is to judge the generation, one is to show the number of rabbits
+#first set two variates, one is to judge the generation, one is to show the number of rabbits
 #then use the while loop to simulate the breeding of the rabbits until the number is over 100
 #print the result
 n=1
