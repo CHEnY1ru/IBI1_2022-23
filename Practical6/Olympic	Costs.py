@@ -1,10 +1,13 @@
+#create a dictionary
+dic={1:'Los Angeles 1984',8:'Seoul 1988',15:'Barcelona 1992',
+     7:'Atlanta 1996',5:'Sydney 2000',14:'Athens 2003',43:'Beijing 2008',40:'London 2012'}
 #set variables
 costs=[1,8,15,7,5,14,43,40]
 #sort
 sorted_costs=sorted(costs)
 print(sorted_costs)
-labels=["Los Angeles1984","Sydney2000","Atlanta1996","Seoul1988",
-        "Athens2003","Barcelona1992","London2012","Beijing 2008"]
+labels=[dic[i] for i in costs]
+print(labels)
 #import numpy and matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
