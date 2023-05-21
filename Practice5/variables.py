@@ -3,10 +3,10 @@ b=-118.24
 c=116.39
 d=a-b
 e=c-a
-if d>c:
-    print("the d is greter, and that shows Rob travel further to Los Angles")
+if d>e:
+    print("the d is bigger, and that shows Rob travel further to Los Angles")
 else:
-    print("the e is greter, and that shows Rob travel further to Haining")
+    print("the e is bigger, and that shows Rob travel further to Haining")
 X=True
 Y=False
 W=X and Y
