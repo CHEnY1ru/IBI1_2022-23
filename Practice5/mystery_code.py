@@ -15,9 +15,9 @@ stored_random_number=0
 #while loop,circulate for 10 times
 while progress<10:
 	  progress+=1
+	  #random n
 	  n = randint(1,100)
 	  if n > stored_random_number:
 		    stored_random_number = n
 
 print(stored_random_number)
-print(progress)
