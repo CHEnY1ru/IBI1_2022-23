@@ -9,7 +9,11 @@ def get_gene(stopcondon,outputfile):
     for i in a:
         if i.endswith(stopcondon):
             #count the target seq
-            n=len(re.findall(stopcondon,i))
+            new_i=""
+            for line in i:
+                line = line.strip()
+                new_i+=line
+            n=len(re.findall(stopcondon,new_i))
             i=re.sub('cdna.+]',str(n),i)
             j='>'+i+'\n'
             output_file.write(j)
