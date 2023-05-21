@@ -19,7 +19,7 @@ new_new_cases=covid_data.loc[march_column,"new_cases"]
 new_new_deaths=covid_data.loc[march_column,"new_deaths"]
 mean_newcase=np.mean(new_new_cases)
 mean_newdeaths=np.mean(new_new_deaths)
-print(f"mean of new cases:{mean_newcase},mean od new deaths:{mean_newdeaths}")
+print(f"mean of new cases:{mean_newcase},mean of new deaths:{mean_newdeaths}")
 
 #boxplots
 plt.boxplot([new_new_cases,new_new_deaths])
