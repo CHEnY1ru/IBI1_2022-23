@@ -22,6 +22,6 @@ plt.xticks(fontsize=6)
 plt.bar(new_location,new_cost)
 plt.xlabel("olympic_location",color="red")
 plt.ylabel("COST")
-plt.title("Olympic_Costs",color="pink")
+plt.title("Olympic_Costs")
 #print barplot
 plt.show()
