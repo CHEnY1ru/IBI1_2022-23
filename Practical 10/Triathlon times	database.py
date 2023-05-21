@@ -34,9 +34,9 @@ class triathlon(object):
 #input a dictionary as recording
 records={"first name":"no data","last name":"no data","swim time":"no data","run time":"no data","cycle time":"no data","total time":"no data"}
 record=triathlon(records)
-record.firstname("a")
-record.lastname("b")
+record.firstname("Tom")
+record.lastname("Li")
 record.swim_minute(16)
 record.cycle_minute(20)
 record.run_minute(40)
-record.get()
+print(record.get())
