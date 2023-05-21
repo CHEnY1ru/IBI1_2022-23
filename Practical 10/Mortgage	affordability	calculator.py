@@ -3,7 +3,7 @@
 def canibuy(house_value,salary):
 #use if else method to judge if the house can be paid
     if house_value<=salary*5:
-        return print("Yes")
+        return "Yes"
     else:
-        return print("No")
-canibuy(4,1)
+        return "No"
+print(canibuy(4,1))
