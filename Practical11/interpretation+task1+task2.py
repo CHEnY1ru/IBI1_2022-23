@@ -26,10 +26,10 @@ def score(seq_a,seq_b):
         single_score=BLOSUM.loc[seq_a[i],seq_b[i]]
         #update the score
         num+=single_score
-    print(f"score:{num}")
-score(human,mouse)
-score(human,cat)
-score(cat,mouse)
+    return f"score:{num}"
+print(f"Human and mouse {score(human,mouse)}")
+print(f"Human and cat {score(human,cat)}")
+print(f"Mouse and cat {score(cat,mouse)}")
 
 #Q2 distance and percentage
 def similiarity(seq_a,seq_b):
@@ -41,7 +41,7 @@ def similiarity(seq_a,seq_b):
             Hamming_distance+=1
     #calculate the percentage
     percentage=(len(seq_a)-Hamming_distance)/len(seq_a)*100
-    print(f"percentage:{percentage}%  Hamming distace:{Hamming_distance}")
-similiarity(human,cat)
-similiarity(human,mouse)
-similiarity(cat,mouse)
+    return f"percentage is {percentage}%  Hamming distace is {Hamming_distance}"
+print(f"Human and cat:{similiarity(human,cat)}")
+print(f"Human and mouse:{similiarity(human,mouse)}")
+print(f"Cat and mouse:{similiarity(cat,mouse)}")
