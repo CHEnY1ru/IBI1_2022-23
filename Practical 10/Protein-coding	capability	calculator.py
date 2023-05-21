@@ -11,15 +11,12 @@ def judge_dna(DNA_seq):
     get_seq=get_seq_pre[0]
     #calculate percentage
     percentage= len(get_seq) / len(DNA_seq)*100
-    print(len(get_seq))
     #judgement
     if percentage>50:
-        return print("protein-coding, and the percentage is:",percentage,"%")
+        return f"protein-coding, and the percentage is:{percentage}%"
     elif percentage<10:
-        return print("non-coding,and the percentage is:",percentage,"%")
+        return f"non-coding,and the percentage is:{percentage}%"
     else:
-        return print("unclear,and the percentage is:",percentage,"%")
+        return f"unclear,and the percentage is:{percentage}%"
 #test
-judge_dna("ATGGGGGTGAAAAAAAAA")
 judge_dna("aaaaatgagtgtaagccTGAtaaaaaaTTTTTTTTTTTTTTTTTTTTTTT")
-judge_dna("AATGagTGAaaaaaaaaaaaaaaaaaaaaGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG")
