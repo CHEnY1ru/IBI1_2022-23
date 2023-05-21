@@ -2,5 +2,4 @@ my question: How have new cases and total cases developed over time in
  the United States?
 
 result and discussion:
-the results presents that the new cases and total cases of United State all 
-show a increasing tendecy
+the results presents that the new cases and total cases of United State all show a increasing tendecy
