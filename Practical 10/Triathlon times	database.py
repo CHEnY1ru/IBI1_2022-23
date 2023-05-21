@@ -29,7 +29,7 @@ class triathlon(object):
         self.judge_sum()
     #print the result
     def get(self):
-        return print(self.recording)
+        return self.recording
 #test
 #input a dictionary as recording
 records={"first name":"no data","last name":"no data","swim time":"no data","run time":"no data","cycle time":"no data","total time":"no data"}
