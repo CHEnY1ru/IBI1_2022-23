@@ -19,4 +19,4 @@ def judge_dna(DNA_seq):
     else:
         return f"unclear,and the percentage is:{percentage}%"
 #test
-judge_dna("aaaaatgagtgtaagccTGAtaaaaaaTTTTTTTTTTTTTTTTTTTTTTT")
+print(judge_dna("aaaaatgagtgtaagccTGAtaaaaaaTTTTTTTTTTTTTTTTTTTTTTT"))
